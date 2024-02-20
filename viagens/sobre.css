@@ -1,0 +1,27 @@
+h2{
+    color: rgb(53, 50, 50);
+    font-size: 110%;
+   
+}
+h1{
+    color: blue;
+}
+footer{
+    background: url(img/cinza.png);
+}
+.caixa li{
+    display: inline-block;
+    text-align: center;
+    width: 35%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 40px 20px;
+    box-sizing: border-box; /* adiciona borda */
+    border: 2px solid black;
+    border-radius: 20px;
+    }
+    .caixa{
+        width: 1001px;
+        margin: 3 auto;
+        padding: 90px;
+

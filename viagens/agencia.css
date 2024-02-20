@@ -1,0 +1,96 @@
+h1{
+    margin: 20px;
+    position: relative;
+}
+header{
+    background-color: rgb(250, 247, 247);
+    padding: 5px 0;
+}
+
+nav a:hover{
+
+color: red;
+text-decoration: underline;
+}
+.opçoes{
+    width: 1000px;
+    margin: 3 auto;
+    padding: 70px;
+}
+.opçoes li{
+display: inline-block;
+text-align: center;
+width: 35%;
+vertical-align: top;
+margin: 0 1.5%;
+padding: 40px 20px;
+box-sizing: border-box; /* adiciona borda */
+border: 2px solid black;
+border-radius: 20px;
+}
+.home{
+  position: relative;
+  width: 1001px;
+  margin: 10 auto;
+
+}
+nav{
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 20px;
+}
+nav a {
+    /*aq estou transformando o texto para maiusculo tirando a decoraçao do texto, colocando em negrito,com 22 de tamanho e cor preto*/
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+nav a:hover{ /* mudar cor quando passa o mouse em cima */ 
+    color: chartreuse;
+    text-decoration: underline;
+}
+
+.opçoes li:hover{ 
+border-color: chartreuse;
+
+}
+
+.opçoes li:hover h2{  /* muda o tamanho da fonte quando passa o mouse em cima */
+    font-size: 35px;
+}
+.opçoes h2{
+font-size: 50px;
+font-weight: bold;
+
+}
+.preco{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.descricao-servico{
+    font-size: 18px; /* muda o tamanho da fonte da descriçao */
+}
+footer {
+text-align: center; /*alinhar todo o textp */
+background: url(img/cinza.png);
+padding: 30px 20px;
+}
+
+
+.copyright {
+
+font-size: 20px;
+color: aliceblue;
+
+}
+
+
+
+

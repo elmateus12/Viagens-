@@ -1,0 +1,29 @@
+.cidades{
+    width: 1000px;
+    margin: 3 auto;
+    padding: 70px;
+}
+.cidades li{
+display: inline-block;
+text-align: center;
+width: 80%;
+vertical-align: top;
+margin: 0 1.5%;
+padding: 60px 30px;
+box-sizing: border-box; /* adiciona borda */
+border: 2px solid black;
+border-radius: 20px;
+}
+.cidades li:hover{ 
+    border-color: chartreuse;
+    
+    }
+    
+    .cidades li:hover h2{  /* muda o tamanho da fonte quando passa o mouse em cima */
+        font-size: 35px;
+    }
+    .cidades h2{
+    font-size: 50px;
+    font-weight: bold;
+    
+    }
